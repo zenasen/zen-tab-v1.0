@@ -1,0 +1,38 @@
+.zen-tab-fn .tab-header{
+  overflow:hidden;
+  margin-bottom:10px;
+}
+.zen-tab-fn .tab-header .header-text{
+  border:1px solid;
+  display:inline-block;
+  padding:3px 10px;
+  margin-right:5px;
+  cursor:pointer;
+}
+.zen-tab-fn .tab-header .header-text.aktif{
+  background:#00000033
+}
+.zen-tab-fn .tab-content{
+  border:1px solid #000;
+}
+.zen-tab-fn .tab-content,
+.zen-tab-fn .content>.inner{
+  transition:all ease 0.3s;
+}
+.zen-tab-fn .tab-content .content{
+  height:0;
+  overflow:hidden;
+  transition:opacity ease 0.3s;
+}
+.zen-tab-fn .content>.inner{
+  padding:10px;
+}
+.zen-tab-fn .tab-content .content.aktif{
+  height:auto;
+}
+.zen-tab-fn .content>.inner{
+  opacity:0;
+}
+.zen-tab-fn .content.tampil>.inner{
+  opacity:1;
+}
